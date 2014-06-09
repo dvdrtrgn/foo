@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    border: 1px solid #eee;
+    font-family: sans-serif;
+    margin: 1em;
+    padding: 1em;
+}
+div {
+    min-height: 130px;
+}
+div.wrapper {
+    border: 1px solid gray;
+    display: table;
+    margin: auto;
+    max-width: 639px;
+}
+div.wrapper div {
+    float: left;
+}
+.top {
+    background-image: url(bkgr1.jpg);
+    height: 490px;
+}
+.c1 {
+    width: 34%;
+}
+.c2 {
+    width: 66%;
+}
+.c3 {
+    width: 100%;
+}
+.red {
+    background-color: #bb0826;
+    color: white;
+}
+.cyan {
+    background-color: #66a5ba;
+    color: white;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+.yellow {
+    background-color: #fcc60a;
+}
+.gray {
+    background-color: #ccc;
+}
+.clear {
+    min-height: 0;
+}
